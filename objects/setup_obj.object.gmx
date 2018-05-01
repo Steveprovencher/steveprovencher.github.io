@@ -29,9 +29,7 @@
 
 instance_create(500,500,enemy_ship_obj)
 
-instance_create(700,500,enemy_ship_obj)
 
-instance_create(300,500,enemy_ship_obj)
 </string>
           </argument>
         </arguments>
