@@ -1570,7 +1570,7 @@ input, select, textarea {
 
 	.box {
 		background: #ffffff;
-		border-bottom: solid 1px #ccc;
+		border-bottom: solid 0 #ccc;
 		padding: 2.75em 1.75em 2.75em 1.75em;
 	}
 
@@ -2066,9 +2066,9 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: #ffffff;
-		border-bottom: solid 1px #ccc;
-		padding: 5em 0 4em 0;
+		background: #f7f7f7;
+		
+		padding: 1em 0 1em 0;
 		text-align: center;
 	}
 
@@ -2267,7 +2267,7 @@ input, select, textarea {
 	#main {
 		position: relative;
 		background: #f7f7f7 url("images/bg02.png");
-		padding: 4em 0 4em 0;
+		padding: 1em 0 1em 0;
 	}
 
 		#main:before {
@@ -2390,7 +2390,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 4em 0 3em 0;
+				padding: 1em 0 1em 0;
 			}
 
 		/* Banner */
@@ -2421,7 +2421,7 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				padding: 30px 0;
+				padding: 15px 0;
 			}
 
 		/* Footer */
