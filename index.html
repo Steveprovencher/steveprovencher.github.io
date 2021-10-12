@@ -33,40 +33,52 @@
 
 								<!-- Portfolio -->
 									<section>
-										<header class="major">
+										<header class="major" style='margin-top:-20px;'>
 											<h2>Data & Dashboard Projects</h2>
 										</header>
 										<div class="row">
-											<!--
+											
 											<div class="col-4 col-6-medium col-12-small">
 												<section class="box">
-													<a href="./Splatter" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+													<a href="https://public.tableau.com/app/profile/steve.provencher/viz/NHLPlayerJerseyNumberAnalysis/Dashboard" class="image featured" target="_blank"><img src="images/NHL_Jersey_tn3.PNG" alt=""  /></a>
 													<header>
-														<h3>NHL Player Stats</h3>
+														<h3>NHL Player Jersey Analysis</h3>
 													</header>
-													<p>NHL API to Snowflake with Python. <br>ETL pipelines managed through Airflow.<br>Dashboard made using Tableau. </p>
-													<footer>
-														<ul class="actions">
-															<li><a href="./Splatter" class="button alt">View Dashboard</a></li>
-														</ul>
-													</footer>
-												</section>
-											</div>
-										-->
-											<div class="col-4 col-6-medium col-12-small">
-												<section class="box">
-													<a href="https://public.tableau.com/views/GuildWars2PVPDashboard/Dashboard" class="image featured"><img src="images/gw2_dashboard_thumbnail.JPG" alt="" /></a>
-													<header>
-														<h3>Guild Wars 2 PVP Stats </h3>
-													</header>
-													<p>Dashbaord for tracking personal PVP Performance in Guild Wars 2.<br><br>
+													<p>Analysis of player jersey number distrubution in the NHL.<br><br>
 														
-														<b>Data Source: </b>Guild Wars 2 Public API<br>
-														<b> ETL:</b> SQL & Python<br>
+														<b>Data Source: </b>NHL Public API<br>
+														<b> ETL:</b> SQL & Python (pandas)<br>
 															<b>Data Storage:</b> Snowflake<br>
 																<b> Visualization:</b> Tableau													<footer>
 														<ul class="actions">
-															<li><a href="https://public.tableau.com/views/GuildWars2PVPDashboard/Dashboard" class="button alt">View Dashboard</a></li>
+															<li><a href="https://public.tableau.com/app/profile/steve.provencher/viz/NHLPlayerJerseyNumberAnalysis/Dashboard" class="button alt" target="_blank">View Dashboard</a></li>
+															
+														</ul>
+																	<br>											<ul class="actions">
+															<li><a href="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=NHL_API_Data_Model.drawio#R7V1dc5s4FP01fmyGL2P8WDtOt9Nkm6kz22RfdmRbsZkC8mCljvvrVwLJfAgwTsCIjNrOFC5CEuLcg3TPBQ%2FMqf%2F6JQTbzR1aQW9gaKvXgXk9MAxDM8bkP2o5xBbdNqzYsg7dFbMlhrn7BzKjxqwv7gruMgUxQh52t1njEgUBXOKMDYQh2meLPSMv2%2BoWrKFgmC%2BBJ1p%2Fuiu8YVZd05IDf0F3vWFNO0N2YAGWv9YheglYewEKYHzEB7waVnS3ASu0T5nM2cCchgjheMt%2FnUKPjisfsfi8m5Kjxy6HMMB1TjCgNTZGGlyOlrbzbD5%2FYjX8Bt4LG4Z7DxxgyLqLD3x0dnvX9wC5MHOywb5HjDrZfEYBnrNCGtlfblxvdQsO6IV2Z4fJyPC9yQaF7h9SHvCTyeEQMxwYNq3N9bwp8lAYNWlCjf7NnDmnNbK2Qrgj597za9ePpluww7w%2FyPPAducuoh7SIj4I124wQRgjnxXil3aTbf45%2BkOOA89dB8S2JA2RkSHN0HsNV%2Fx0fk%2FjBn13ybY9sIDe5AgOXnUED3r1Ifp1RBofzBvgux71oH9guAIB4GMcj5JuiTec30EYYviaMjEAfIHIhzg8kCLsqMlxyx1Vt%2BP9fQr1NiuzSQFed1hBwDxtfaz72NwP4pkgWJPhPqs9p6A5I9ca8MjoBwDDCR3NXRrnZCN1pYkpQn%2BJY%2F3Uvu2e9K9LpIOH6zFaT2fXnyxHcAdSXnCFDdjSTXIXsAu85JLNCUZbfvPhMwdhyK6Jbi848PSsI3GMxadN6N10CTV9ZmbfXa2iBtIuwoG0BUs3WN%2FGDZpWYvrBGqam%2FcbFcE7stOd7QuHEhkgzz16E3Q1pAAYRtjHAYHH06C1yAxzdgeGE%2FCP3aapdDQdDMhBTsq8n%2B%2BQfLR7iKQoIuIEbIRQSZ9xD6pCTVYi2D8T9IB%2BMNHsMyb4I7lK%2BOo32QxZFp8BtauXYzsDsbEyNRYr99m5MLdIEliZkER91oZXFUaswOoUUOgrsggqecJWemwfGcb7AOpN58GYAk0KIeUmADC0BIAHwKYE%2BzB4f2mGfHGpOQCSq92NRTxtUM6xJNfkHW3NIGgpIkohoYhT1mmWOrtoay7SHDVvAxhbtXOyiQDFN35jGMbpmmpFimnaZxi7BRA%2BYRlxEBS%2F%2BgsYUtK9%2FK5rpD83omtM1z4iLJ8UzjfJM6%2BumJrDxhGaL749P8%2B%2FLf%2FfW%2FejXFm%2F3BaFLsHX%2Fo%2FEaRTMt00wBWk4zTznNmNblaKYQSoZimfewTG3yyMKk3KvlIRlTQAaGwFcs00OW4YzSGcuIcT7FMh2xjNkZy4ioFae4czIMKJiT0duJCFE67IfRYRmcGEF9cob1CEq3rHIcVumwNdozLi7ECg7Bu6BEWGlF2HFtrHegwoqAKkhyUQrsOyIJ5S4rtfoqdltc9ynlVYZA5dn8cknpVYSRuEiUiF3kn9hXU4tRggWpApRit8XFXrxpaNez6de7z7eKXvpDL5fUW0UoqayOFumlFxkdYrfFbI6XwMVq5tI7armoxiriSOVxtMgtvcjhELst5m8oQukRodRVU%2FVWltQqYaNFQmk9WaMVTBS8VfMlCrMoaeODShtHGYFxksnf7zrNSU45AMuljTrtjeR4xcxW6obk6kbpq0RSqBvFoFIKR7OP3mrXlVrlKO66qHRsSNUqj6nzCf75bNP5a2a20jtaJppeaB7FXRd1D7AHB0U0PSSazt8ys5Xy0TLR9FP9cMQ11AMEvogNFVD4MAGFzPq%2B%2Fidr3pYqWaO5y4cTRDcQV30qlCBVKMEpWzFKEUoQuyuuElUY4T0P3XKXlTqEIHZbXPGpREkJ5vTn80uniZKOegOqRWoxS7Ag%2BVxeXON5aAnUd2l6SS%2BdJko6YlKcopfG6GVYggWp6KXwZU8x%2FUB9KOJC9HLuK9xOCXS6SJYsxJJKb5LmHW5HoklMC7BQtHKxWUu3KZNjMZqtOKWxaUtZ%2FqzcKZNjMbQrYAKu1pDHI8l4bdAaBcCbJdb0jYfB6jP9jQSyO%2Fvhg%2BAQ26h8wNFTGfmvFeenVZIrf2Q1RjtPdOeKxkvhq4sfeXfIdnIkElWS7nGtgRhT%2FYtqu37N7B1KWYGN3w69hEtYhg3%2BKxOcYAYnPi5NR7yST9L8oRVihRlD6JEl7m%2BY6WyFRnFPXSTRJ7j4wNMdtRwG48tmJyUwFOox7GxFhp7rSjw0QkVNqBdjMdjcC4jXB2uZH1QAmfsIKanZKT%2FRrzTTZPvJqXQnfeY9DF1yS6je9x63GNd0C56mIo1b6GYOzs5b%2FULPVmQNW%2FOLwpEV2Z8mzM9%2BQ9acErk%2Fosid%2F6GU%2Blnz5hs%2FCFSjPb3GGuoCafMjUTpQWneXWnclb0kpdxfjSpQflOT9nhVYtfdKLXsXdr0g10xJ35eP8jRDN52nzhekbElENv2K9VS7q9QyVXHXxQUx%2F2SQopreUU3nyfMFOVuKahqlGqMEEz2gGnE1pT4f1Fem6f5XWgpyuBTVNEo1vXhPp7jrp6Hx9ih%2FfP%2BzQf5cfP4PDNEDuovlgGY0Lh6jH%2BR1rIroPNcD9MFZeoCIj4IIfuWS%2B3QUn6FBmij%2BMB98z1dRN4pv5mQya2RkK2o5il8jKaRZ6Dcs4SbofCr2LSaynaPUJgKXZY9TDqRXu09j4hb%2FhFLaLcp%2BKE0aj7Byupb%2BVr3XNrM%2FAWDzX4y9lK5VI9VFRpdIVNk051dC9gxXKXA2%2FYQbvf25UJDzID3%2Bh1ZO183LsbWfCDnFSxCI28a%2FGOJpEP8XynkI2kt5GGWmVGPrxKTqnKfC6XmQVYj6WskS3bnG2MoA%2Bu2ZQJpzpY3GyR8zO3Wyx7UchWAEHFLF2MKovPu5Zpgcl7hdXGFNJyS7IUI4XZys4TZ3aAVpif8B" class="button alt" target="_blank">View Data Model</a></li>
+														</ul>
+														
+													</footer>
+												</section>
+											</div>
+									
+											<div class="col-4 col-6-medium col-12-small">
+												<section class="box">
+													<a href="https://public.tableau.com/app/profile/steve.provencher/viz/GuildWars2PVPMapAnalysis/Dashboard1" class="image featured" target="_blank"><img src="images/GW2_PVP_tn3.PNG" alt="" /></a>
+													<header>
+														<h3>Guild Wars 2 PvP Map Analysis </h3>
+													</header>
+													<p>Analysis of competitive performance based on map name and map features.<br><br>
+														
+														<b>Data Source: </b>Guild Wars 2 Public API<br>
+														<b> ETL:</b> SQL & Python (pandas)<br>
+															<b>Data Storage:</b> Snowflake<br>
+																<b> Visualization:</b> Tableau													<footer>
+														<ul class="actions">
+															<li><a href="https://public.tableau.com/app/profile/steve.provencher/viz/GuildWars2PVPMapAnalysis/Dashboard1 " class="button alt" target="_blank">View Dashboard</a></li>
+														</ul>
+														<br><ul class="actions">
+															<li><a href="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=GW2_PVP.drawio#R7Z1rT9s6GMc%2FTV9uyqU3XtJSdtDgDA20wXmD3MRNLJw4csxK9%2BmPndhtghtatLZxJm9IxE8cX%2F%2F%2BNbYf054%2FTV6%2FUJDFNySEuOc54WvPv%2Bh5nud4Z%2FyXsKxKy2jULw0RRWFpcjeGO%2FQbSqMjrS8ohHktIiMEM5TVjQFJUxiwmg1QSpb1aAuC67lmIIKa4S4AWLf%2BRCGLpdV1nM2NfyCKYpn1eCBvzEHwHFHyksr8UpLC8k4CVDIyah6DkCwrJn%2FW86eUEFZeJa9TiEWzqhYrn7tsuLsuMoUp2%2BcBD%2FbPvJEDg1EwHC%2F8xSeZwi%2BAX2Qz3AAWxLK0bKUaJ1%2BiBANeL38SswRzo8svFyRldzKSw8NBjHB4DVbkRZQmZ7xhVGgSE4p%2B8%2FhAPcxvUyZl4A1FagjjKcGEFln60BH%2Fa0%2FeiRRlXhTm%2FNlbVXV3bboGOVPlIRiDLEfzooQiSgJohNIJYYwkMpKq2mU9%2B0Xxj98HGEUptwU8I0hFNqKrYageV11aZpigQF5jMId4staGSrpQh6g9Jc9roanGvAQJwmL8%2FIA0BClQbVy2ktvX%2B1t1IKQMvlZMsv%2B%2FQJJARlc8ihqoY6nFlRL4sAwvK6IfyjhxRe9%2B35ODTQ60aJ32OrvvfGCCNOLNvc7PH%2BzOb7wlO29Yzw1g3vopYHAiWjOvypxfVGq6MRXibxhXP52v%2BaN7FRAX3F%2BckWg6u%2FjUH2ujgcfXhkIMMnHJe4EhgDdV9ieMZKrz4UKJkMo6ieu5Ep5bH0hKY%2BVjE9GbiJPpXJoTFIZFBtUhooSUgQCl0XWZod%2FfmL7LjIVpGSMG77hdlHzJAc5thGezwIV2Y54BTAttM8DAfD2iM4JSVvTAYMJ%2FeD9Nnc%2BD3oA3xJSH3U2Y%2F4jolE1JysUNUKFQyAfjEooBOQkpye758IOqMar0GPCwLu5GXO1W%2B6quop3idpq1XZPZhzV1pmnq9usfa2peBVgVyLo%2B9pVWXUdHldEupYhWkBXa8gH37sh9K4z164IsTO1ztyaYikL8Uwpk0NcEwlACn4qPR26%2FOL%2Bf3V%2FdzI7DoTf62SGWIt2%2FC0LHgM5gT%2Bi8%2FYg7nKYGmqYMQk6pok7zZj1oj8ab42ljuJ03kE9fLG06SJux1zZtRpY2x6XNsEETHaCNPqUCGXoS0yrn6t97i5nOYMZ1xm1zRp9KWc4clDNHn0UdQhuPZDb%2F9vB49y34b9m%2FHT1nLFtuWcdMQGYxcwrMbFHLbvI0Y8bvnw4zW6XkWcr8CWX2hkddJs2j2hzI%2BJoyMkoWMM8RSbn9fvZgSdMh0iiqtEYafeXPkqYl0vhmkUbtiVekQQHjzf4UxLz%2FoX2t6RpsxidcE94uKf0V2dKmrfca02ZP%2BjtvBBL4xFYZtC82XWONp7qzPdbob8qWNW2xxjOMNfpbL4X5C2YWNJ0DjX%2FCJeHtYrIb3eaApm8YaPSN7pgIx5qAUDuB6hxrhm2vC7t2m9sc1gwNY82Wbe4lWFnWdJM1Z22vDLt2q9sc1ozNYo2nrw0zCBI7feoaZvx9T94cT0p2TdgYzLToUaPpdqwj5oa3qSYNeyjwLzkUqFaMP3om0FPA%2BNiZwD2yG538SKA%2BCnQ62uOARh0HXHPKyPOAenH1bTZ7FvCjn7nvC6KJfEadA9SLre%2BXpSCxW69tO8l%2FnC%2BnPPqnF9c6lB0RLX6DFoxyjteLre%2BQWa%2BOTqLllOf89OLqm2kWLQdDy6BBC0ahZeuqhb7vgWEa8aLYPQ%2FTFiPHDdJp43zfVi3ZPQ9jFiNN2%2FLQJ85lUSxlukaZ9o%2F3Wd9UYzBTNr1BnNEn0LwKwGKmc5hp%2FWyfZz1TzcGMYZ6pnj6ZLlqLm0KUcw0E1mese8hp%2FYSfZx1UzUFOew6qunCPMLG2YGkGy6G3rPc9zqcOjR9UPMoV1kLlGAu%2FZw1iONjC73E0sYfbIAwjqLw5eHvFJCIpwLONtdrxMA3PxV%2Fw58HZ9wSkq9ImnK%2BUet71m9rLS0okyWv%2BIFMsAo8i8Fl4m8BXxB5Ucfj15k7hkrYpnvLU4sZK%2BYrULl5roVUjFWT75eSFBrBJG%2Bo7EBRgejv%2B9rFo8Xd5UuWHs1Ur0kghBgz9grXCvuPhdStfXqWCleuWcnN13miwrLZ8aCNDLR1vWE%2FIc98UpWwaLaHdvl88uPnOhTL65jst%2FNn%2F" target="_blank" class="button alt">View Data Model</a></li>
 														</ul>
 													</footer>
 												</section>
@@ -89,7 +101,7 @@
 										</div>
 										<br>
 										
-										
+						<!--				
 <header class="major">
 
 											<h2>Game Projects</h2>
@@ -109,30 +121,9 @@
 													</footer>
 												</section>
 											</div>
-											<!--<div class="col-4 col-6-medium col-12-small">
+												<div class="col-4 col-6-medium col-12-small">
 												<section class="box">
-													<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-													<header>
-														<h3>Consequat et tempus</h3>
-													</header>
-													<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
-													<footer>
-														<ul class="actions">
-															<li><a href="#" class="button alt">Find out more</a></li>
-														</ul>
-													</footer>
-												</section>
-											</div>-->
-										</div>
-										<br>
-										<!--
-										<header class="major">
-											<h2>2D Game Projects</h2>
-										</header>
-										<div class="row">
-											<div class="col-4 col-6-medium col-12-small">
-												<section class="box">
-													<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+													<a href="#" class="image featured"><img src="images/potioneer_thumbnail.JPG" alt="" /></a>
 													<header>
 														<h3>Splatter</h3>
 													</header>
@@ -143,43 +134,10 @@
 														</ul>
 													</footer>
 												</section>
-											</div>
-											<div class="col-4 col-6-medium col-12-small">
-												<section class="box">
-													<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-													<header>
-														<h3>Planet Game</h3>
-													</header>
-													<p>GameMaker</p>
-													<footer>
-														<ul class="actions">
-															<li><a href="#" class="button alt">Play</a></li>
-														</ul>
-													</footer>
-												</section>
-											</div>
-											<div class="col-4 col-6-medium col-12-small">
-												<section class="box">
-													<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-													<header>
-														<h3>Penguin Game</h3>
-													</header>
-													<p>Godot</p>
-													<footer>
-														<ul class="actions">
-															<li><a href="#" class="button alt">Play</a></li>
-														</ul>
-													</footer>
-												</section>
-											</div>
-										</div>
+											</div>										
 										
-
-
-									</section>
-
 							</div>
-							-->
+							
 					</div>
 				</section>
 
@@ -192,7 +150,10 @@
 				</section>-->
 
 		</div>
-
+		</div>
+		</div>
+		</div>
+</body>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
