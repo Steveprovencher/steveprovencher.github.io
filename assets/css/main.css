@@ -84,7 +84,7 @@ input, select, textarea {
 
 	body {
 		background: #252122;
-		background-image: url("images/bg02.png");
+		
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1554,7 +1554,7 @@ input, select, textarea {
 		}
 
 			header.major h2 {
-				background: #fff;
+				background: #f7f7f7;
 				position: relative;
 				top: -0.65em;
 				display: inline;
@@ -2266,8 +2266,9 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
 		padding: 1em 0 1em 0;
+					background: #f7f7f7;
+
 	}
 
 		#main:before {
@@ -2276,15 +2277,12 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
 		}
 
-		#main .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
-		}
+
 
 /* Footer */
 
@@ -2300,7 +2298,6 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
@@ -2375,10 +2372,12 @@ input, select, textarea {
 
 			header.major {
 				margin: 0.75em 0 2.5em 0;
+
 			}
 
 				header.major h2 {
 					padding: 0 1em 0 1em;
+
 				}
 
 		/* Social */
@@ -2631,7 +2630,6 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				color: #858484;
-				background-image: url("images/bg02.png");
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 			}
 
@@ -2714,6 +2712,7 @@ input, select, textarea {
 
 			h2, h3, h4, h5, h6 {
 				font-size: 1.25em;
+
 			}
 
 		/* Button */
