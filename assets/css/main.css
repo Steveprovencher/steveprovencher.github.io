@@ -2573,6 +2573,7 @@ input, select, textarea {
 					text-decoration: none;
 					width: 80px;
 					height: 60px;
+					display: none;
 				}
 
 					#titleBar .toggle:before {
@@ -2631,6 +2632,7 @@ input, select, textarea {
 				z-index: 10002;
 				color: #858484;
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
+				display:none;
 			}
 
 				#navPanel .link {
